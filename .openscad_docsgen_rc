@@ -1,0 +1,16 @@
+DocsDirectory: GYHA-OpenSCAD.wiki/
+TargetProfile: githubwiki
+ProjectName: Getting Your Head Around OpenScad
+GenerateDocs: Files, TOC, Index, Topics, CheatSheet, Sidebar
+UsePNGAnimations: Yes
+IgnoreFiles:
+  tmp_*.scad
+PrioritizeFiles:
+  Introduction.scad
+  Naked_SCAD.scad
+DefineHeader(BulletList): Side Effects
+DefineHeader(Table;Headers=Anchor Name|Position): Extra Anchors
+DefineHeader(Table;Headers=Anchor Type|What it is): Anchor Types
+DefineHeader(Table;Headers=Name|Definition): Terminology
+DefineHeader(BulletList): Requirements
+
