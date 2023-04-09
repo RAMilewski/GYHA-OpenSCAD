@@ -6,5 +6,5 @@
 
 Synopsis: This module creates an elephant. [VNF][vnf] 
 
-Synopsis: This module creates a tiger. [more info] [VNF||GEOM] 
+Synopsis: This module creates a tiger. [more info][vnf||geom] 
 
