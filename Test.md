@@ -1,0 +1,222 @@
+
+Skip to content
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+@RAMilewski
+RAMilewski /
+GYHA-OpenSCAD
+Public
+
+Cannot fork because you own this repository and are not a member of any organizations.
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+GYHA-OpenSCAD/Mouseover Test
+@RAMilewski
+RAMilewski Create Mouseover Test
+Latest commit 9342671 Apr 9, 2023
+History
+1 contributor
+173 lines (120 sloc) 8.77 KB
+# Topic Index
+
+An index of topics, with related functions, modules, and constants.
+
+- [A](#A): [Attachable](#attachable), [Attachments](#attachments)
+- [C](#C): [Chamfers](#chamfers), [Cylinders](#cylinders)
+- [D](#D): [Distance](#distance)
+- [E](#E): [Extrusion](#extrusion)
+- [F](#F): [FDM Optimized](#fdm-optimized)
+- [H](#H): [Heightfield](#heightfield)
+- [K](#K): [Knurling](#knurling)
+- [P](#P): [Path Generators](#path-generators), [Path Generators (2D)](#path-generators-2d), [Paths](#paths), [Paths (2D)](#paths-2d), [Paths (3D)](#paths-3d)
+- [R](#R): [Rounding](#rounding)
+- [S](#S): [Shapes (3D)](#shapes-3d)
+- [T](#T): [Text](#text), [Textures](#textures)
+- [V](#V): [VNF Generators](#vnf-generators)
+
+## A
+
+### Attachable
+
+- [`cube()`](shapes3d.scad#functionmodule-cube) – Creates a cube with anchors for attaching children. [vnf]
+- [`cuboid()`](shapes3d.scad#module-cuboid) – Creates a cube with chamfering and roundovers. [vnf]
+- [`cylinder()`](shapes3d.scad#functionmodule-cylinder) – Creates an attachable cylinder. [vnf]
+- [`octahedron()`](shapes3d.scad#functionmodule-octahedron) – Creates an octahedron with axis-aligned points. [vnf]
+- [`onion()`](shapes3d.scad#functionmodule-onion) – Creates an attachable onion-like shape. [vnf]
+- [`pie_slice()`](shapes3d.scad#functionmodule-pie_slice) – Creates a pie slice shape. [vnf]
+- [`prismoid()`](shapes3d.scad#functionmodule-prismoid) – Creates a rectangular prismoid shape with optional roundovers and chamfering. [vnf]
+- [`rect_tube()`](shapes3d.scad#module-rect_tube) – Creates a rectangular tube. [vnf]
+- [`sphere()`](shapes3d.scad#functionmodule-sphere) – Creates an attachable spherical object. [vnf]
+- [`spheroid()`](shapes3d.scad#functionmodule-spheroid) – Creates an attachable spherical object with controllable triangulation. [vnf]
+- [`teardrop()`](shapes3d.scad#functionmodule-teardrop) – Creates a teardrop shape. [vnf]
+- [`torus()`](shapes3d.scad#functionmodule-torus) – Creates an attachable torus. [vnf]
+- [`tube()`](shapes3d.scad#module-tube) – Creates a cylindrical or conical tube. [vnf]
+- [`wedge()`](shapes3d.scad#functionmodule-wedge) – Creates a 3d triangular wedge. [vnf]
+
+### Attachments
+
+- [`text3d()`](shapes3d.scad#module-text3d) – Creates an attachable 3d text block.
+
+## C
+
+### Chamfers
+
+- [`cyl()`](shapes3d.scad#functionmodule-cyl) – Creates an attachable cylinder with roundovers and chamfering. [vnf]
+- [`xcyl()`](shapes3d.scad#module-xcyl) – creates a cylinder oriented along the X axis. [vnf]
+- [`ycyl()`](shapes3d.scad#module-ycyl) – creates a cylinder oriented along the y axis. [vnf]
+- [`zcyl()`](shapes3d.scad#module-zcyl) – creates a cylinder oriented along the Z axis. [vnf]
+
+### Cylinders
+
+- [`cyl()`](shapes3d.scad#functionmodule-cyl) – Creates an attachable cylinder with roundovers and chamfering. [vnf]
+- [`xcyl()`](shapes3d.scad#module-xcyl) – creates a cylinder oriented along the X axis. [vnf]
+- [`ycyl()`](shapes3d.scad#module-ycyl) – creates a cylinder oriented along the y axis. [vnf]
+- [`zcyl()`](shapes3d.scad#module-zcyl) – creates a cylinder oriented along the Z axis. [vnf]
+
+## D
+
+### Distance
+
+- [`ruler()`](shapes3d.scad#module-ruler) – Creates a ruler.
+
+## E
+
+### Extrusion
+
+- [`cylindrical_heightfield()`](shapes3d.scad#functionmodule-cylindrical_heightfield) – Generates a cylindrical 3d surface from a 2D grid of values. [vnf]
+
+## F
+
+### FDM Optimized
+
+- [`onion()`](shapes3d.scad#functionmodule-onion) – Creates an attachable onion-like shape. [vnf]
+- [`teardrop()`](shapes3d.scad#functionmodule-teardrop) – Creates a teardrop shape. [vnf]
+
+## H
+
+### Heightfield
+
+- [`cylindrical_heightfield()`](shapes3d.scad#functionmodule-cylindrical_heightfield) – Generates a cylindrical 3d surface from a 2D grid of values. [vnf]
+- [`heightfield()`](shapes3d.scad#functionmodule-heightfield) – Generates a 3D surface from a 2D grid of values. [vnf]
+
+## K
+
+### Knurling
+
+- [`cylindrical_heightfield()`](shapes3d.scad#functionmodule-cylindrical_heightfield) – Generates a cylindrical 3d surface from a 2D grid of values. [vnf]
+
+## P
+
+### Path Generators
+
+- [`path_text()`](shapes3d.scad#module-path_text) – Creates 2d or 3d text placed along a path.
+
+### Path Generators (2D)
+
+- [`path_text()`](shapes3d.scad#module-path_text) – Creates 2d or 3d text placed along a path.
+
+### Paths
+
+- [`path_text()`](shapes3d.scad#module-path_text) – Creates 2d or 3d text placed along a path.
+
+### Paths (2D)
+
+- [`path_text()`](shapes3d.scad#module-path_text) – Creates 2d or 3d text placed along a path.
+
+### Paths (3D)
+
+- [`path_text()`](shapes3d.scad#module-path_text) – Creates 2d or 3d text placed along a path.
+
+## R
+
+### Rounding
+
+- [`cyl()`](shapes3d.scad#functionmodule-cyl) – Creates an attachable cylinder with roundovers and chamfering. [vnf]
+- [`xcyl()`](shapes3d.scad#module-xcyl) – creates a cylinder oriented along the X axis. [vnf]
+- [`ycyl()`](shapes3d.scad#module-ycyl) – creates a cylinder oriented along the y axis. [vnf]
+- [`zcyl()`](shapes3d.scad#module-zcyl) – creates a cylinder oriented along the Z axis. [vnf]
+
+## S
+
+### Shapes (3D)
+
+- [`cube()`](shapes3d.scad#functionmodule-cube) – Creates a cube with anchors for attaching children. [vnf]
+- [`cuboid()`](shapes3d.scad#module-cuboid) – Creates a cube with chamfering and roundovers. [vnf]
+- [`cylinder()`](shapes3d.scad#functionmodule-cylinder) – Creates an attachable cylinder. [vnf]
+- [`octahedron()`](shapes3d.scad#functionmodule-octahedron) – Creates an octahedron with axis-aligned points. [vnf]
+- [`onion()`](shapes3d.scad#functionmodule-onion) – Creates an attachable onion-like shape. [vnf]
+- [`pie_slice()`](shapes3d.scad#functionmodule-pie_slice) – Creates a pie slice shape. [vnf]
+- [`prismoid()`](shapes3d.scad#functionmodule-prismoid) – Creates a rectangular prismoid shape with optional roundovers and chamfering. [vnf]
+- [`rect_tube()`](shapes3d.scad#module-rect_tube) – Creates a rectangular tube. [vnf]
+- [`sphere()`](shapes3d.scad#functionmodule-sphere) – Creates an attachable spherical object. [vnf]
+- [`spheroid()`](shapes3d.scad#functionmodule-spheroid) – Creates an attachable spherical object with controllable triangulation. [vnf]
+- [`teardrop()`](shapes3d.scad#functionmodule-teardrop) – Creates a teardrop shape. [vnf]
+- [`torus()`](shapes3d.scad#functionmodule-torus) – Creates an attachable torus. [vnf]
+- [`tube()`](shapes3d.scad#module-tube) – Creates a cylindrical or conical tube. [vnf]
+- [`wedge()`](shapes3d.scad#functionmodule-wedge) – Creates a 3d triangular wedge. [vnf]
+
+## T
+
+### Text
+
+- [`path_text()`](shapes3d.scad#module-path_text) – Creates 2d or 3d text placed along a path.
+- [`text3d()`](shapes3d.scad#module-text3d) – Creates an attachable 3d text block.
+
+### Textures
+
+- [`cyl()`](shapes3d.scad#functionmodule-cyl) – Creates an attachable cylinder with roundovers and chamfering. [vnf]
+- [`cylindrical_heightfield()`](shapes3d.scad#functionmodule-cylindrical_heightfield) – Generates a cylindrical 3d surface from a 2D grid of values. [vnf]
+- [`heightfield()`](shapes3d.scad#functionmodule-heightfield) – Generates a 3D surface from a 2D grid of values. [vnf]
+- [`xcyl()`](shapes3d.scad#module-xcyl) – creates a cylinder oriented along the X axis. [vnf]
+- [`ycyl()`](shapes3d.scad#module-ycyl) – creates a cylinder oriented along the y axis. [vnf]
+- [`zcyl()`](shapes3d.scad#module-zcyl) – creates a cylinder oriented along the Z axis. [vnf]
+
+## V
+
+### VNF Generators
+
+- [`cube()`](shapes3d.scad#functionmodule-cube) – Creates a cube with anchors for attaching children. [vnf]
+- [`cuboid()`](shapes3d.scad#module-cuboid) – Creates a cube with chamfering and roundovers. [vnf]
+- [`cylinder()`](shapes3d.scad#functionmodule-cylinder) – Creates an attachable cylinder. [vnf]
+- [`octahedron()`](shapes3d.scad#functionmodule-octahedron) – Creates an octahedron with axis-aligned points. [vnf]
+- [`onion()`](shapes3d.scad#functionmodule-onion) – Creates an attachable onion-like shape. [vnf]
+- [`pie_slice()`](shapes3d.scad#functionmodule-pie_slice) – Creates a pie slice shape. [vnf]
+- [`prismoid()`](shapes3d.scad#functionmodule-prismoid) – Creates a rectangular prismoid shape with optional roundovers and chamfering. [vnf]
+- [`rect_tube()`](shapes3d.scad#module-rect_tube) – Creates a rectangular tube. [vnf]
+- [`sphere()`](shapes3d.scad#functionmodule-sphere) – Creates an attachable spherical object. [vnf]
+- [`spheroid()`](shapes3d.scad#functionmodule-spheroid) – Creates an attachable spherical object with controllable triangulation. [vnf]
+- [`teardrop()`](shapes3d.scad#functionmodule-teardrop) – Creates a teardrop shape. [vnf]
+- [`torus()`](shapes3d.scad#functionmodule-torus) – Creates an attachable torus. [vnf]
+- [`tube()`](shapes3d.scad#module-tube) – Creates a cylindrical or conical tube. [vnf]
+- [`wedge()`](shapes3d.scad#functionmodule-wedge) – Creates a 3d triangular wedge. [vnf]
+
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+GYHA-OpenSCAD/Mouseover Test at main · RAMilewski/GYHA-OpenSCAD
