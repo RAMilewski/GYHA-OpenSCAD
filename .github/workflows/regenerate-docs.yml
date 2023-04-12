@@ -11,7 +11,7 @@ jobs:
     - name: Clone Wiki
       uses: actions/checkout@v3
       with:
-        repository: GYHA-OPENSCAD.wiki
+        repository: RAMilewski/GYHA-OPENSCAD.wiki
         path: GYHA-OpenSCAD.wiki
 
     - name: Apt Update
@@ -39,6 +39,6 @@ jobs:
     - name: Upload Docs to Wiki
       uses: SwiftDocOrg/github-wiki-publish-action@v1
       with:
-        path: "BOSL2.wiki"
+        path: "GYHA-OpenSCAD.wiki"
       env:
         GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
