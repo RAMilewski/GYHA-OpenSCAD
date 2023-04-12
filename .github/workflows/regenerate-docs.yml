@@ -11,7 +11,7 @@ jobs:
     - name: Clone Wiki
       uses: actions/checkout@v3
       with:
-        repository: revarbat/BOSL2.wiki
+        repository: GYHA-OPENSCAD.wiki
         path: GYHA-OpenSCAD.wiki
 
     - name: Apt Update
