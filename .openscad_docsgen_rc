@@ -1,7 +1,7 @@
 DocsDirectory: GYHA-OpenSCAD.wiki/
 TargetProfile: githubwiki
 ProjectName: Getting Your Head Around OpenScad
-GenerateDocs: Files, TOC, Index, Topics, CheatSheet, Sidebar
+GenerateDocs: Files
 UsePNGAnimations: Yes
 IgnoreFiles:
   tmp_*.scad
